@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: none;
+  margin: 0;
+}
+.main-div {
+  background-color: #6983aa;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-div {
+  color: #8566aa;
+  background-color: #f4f4f4;
+  height: 70vh;
+  border-radius: 15px;
+  -webkit-box-shadow: 10px 10px 59px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 59px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 59px 0px rgba(0, 0, 0, 0.75);
+  font-family: poppins;
+}
+.center-div h1 {
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0;
+
+  color: white;
+  background-color: #8566aa;
+}
+.input-div {
+  display: flex;
+  justify-content: center;
+}
+.input-div input {
+  border: none;
+  padding: 5px;
+  color: #8566aa;
+  margin-right: 10px;
+  border-bottom: 3px solid #8566aa;
+}
+.input-div button {
+  background-color: #8566aa;
+  color: white;
+  font-size: larger;
+  border: none;
+  border-radius: 50%;
+  height: 40px;
+
+  -webkit-box-shadow: 10px 10px 59px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 59px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 59px 0px rgba(0, 0, 0, 0.75);
+  width: 40px;
+  transition: 0.4s;
+}
+.input-div button:hover {
+  background-color: green;
+  color: white;
+
+  -webkit-box-shadow: 10px 10px 59px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 59px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 59px 0px rgba(0, 0, 0, 0.75);
+}
+.list-div {
+  display: flex;
+  margin-top: 10px;
+}
+.btn {
+  background-color: #6983aa;
+  color: white;
+  border: none;
+  margin-right: 5px;
+  padding: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin-top: 5px;
+}
